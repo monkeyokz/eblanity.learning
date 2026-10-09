@@ -3,7 +3,6 @@
 #include <string>
 #include <iostream>
 #include <tlhelp32.h>
-#include <rpcndr.h>
 
 DWORD GetPID(std::wstring name);
 HANDLE Attach(int pid);

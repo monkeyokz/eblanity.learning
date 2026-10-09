@@ -115,6 +115,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;dxgi.lib;dwmapi.lib;winmm.lib;d3dcompiler.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Manifest>
       <EnableSegmentHeap>true</EnableSegmentHeap>
@@ -133,6 +134,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;dxgi.lib;dwmapi.lib;winmm.lib;d3dcompiler.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Manifest>
       <EnableSegmentHeap>true</EnableSegmentHeap>
@@ -147,6 +149,8 @@
     <ClCompile Include="ext\imgui_tables.cpp" />
     <ClCompile Include="ext\imgui_widgets.cpp" />
     <ClCompile Include="memory\memory.cpp" />
+    <ClCompile Include="overlay\overlay.cpp" />
+    <ClCompile Include="overlay\timer\timer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ext\imconfig.h" />
@@ -159,6 +163,8 @@
     <ClInclude Include="ext\imstb_truetype.h" />
     <ClInclude Include="include.h" />
     <ClInclude Include="memory\memory.h" />
+    <ClInclude Include="overlay\overlay.h" />
+    <ClInclude Include="overlay\timer\timer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

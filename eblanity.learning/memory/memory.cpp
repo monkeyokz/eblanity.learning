@@ -11,6 +11,8 @@ DWORD GetPID(std::wstring name) {
 			}
 		} while (Process32NextW(tool, &entry));
 	}
+	CloseHandle(tool);
+	return 0;
 }
 
 HANDLE Attach(int pid) {
