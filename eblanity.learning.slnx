@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="eblanity.learning/eblanity.learning.vcxproj" Id="7f91707a-9b5a-4e07-9c14-ea5e1f279add" />
+</Solution>
