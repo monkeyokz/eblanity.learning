@@ -140,9 +140,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="eblanity.learning.cpp" />
+    <ClCompile Include="ext\imgui.cpp" />
+    <ClCompile Include="ext\imgui_draw.cpp" />
+    <ClCompile Include="ext\imgui_impl_dx11.cpp" />
+    <ClCompile Include="ext\imgui_impl_win32.cpp" />
+    <ClCompile Include="ext\imgui_tables.cpp" />
+    <ClCompile Include="ext\imgui_widgets.cpp" />
     <ClCompile Include="memory\memory.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ext\imconfig.h" />
+    <ClInclude Include="ext\imgui.h" />
+    <ClInclude Include="ext\imgui_impl_dx11.h" />
+    <ClInclude Include="ext\imgui_impl_win32.h" />
+    <ClInclude Include="ext\imgui_internal.h" />
+    <ClInclude Include="ext\imstb_rectpack.h" />
+    <ClInclude Include="ext\imstb_textedit.h" />
+    <ClInclude Include="ext\imstb_truetype.h" />
     <ClInclude Include="include.h" />
     <ClInclude Include="memory\memory.h" />
   </ItemGroup>
